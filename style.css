@@ -737,6 +737,6 @@ body {
         font-size: 18px;
     }
     .contact{
-        height:180px
+        height:auto;
     }
 }
