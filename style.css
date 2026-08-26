@@ -67,7 +67,6 @@ body {
     cursor: pointer;
 }
 
-
 /* ================= SIDE NAVBAR ================= */
 
 .side-navbar {
@@ -121,23 +120,25 @@ body {
 }
 
 
-/* Side Navbar Download Link */
+/* Side Navbar Download Button Link */
 
 .side-nav-button-2 a {
-    color: white !important;
-    text-decoration: none !important;
+    color: white ;
+    text-decoration: none;
 }
 
 .side-nav-button-2 a:visited {
-    color: white !important;
-    text-decoration: none !important;
+    color: white ;
+    text-decoration: none ;
 }
 
 .side-nav-button-2 a:hover {
-    color: white !important;
-    text-decoration: none !important;
+    color: white ;
+    text-decoration: none ;
 }
 
+
+/* Button Hover */
 
 .side-nav-button-1:hover,
 .side-nav-button-2:hover {
@@ -145,7 +146,6 @@ body {
         rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
         rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
-
 
 /* ================= HEADER ================= */
 
@@ -227,18 +227,18 @@ body {
 /* Header Download Link */
 
 .heading-buttons .button-2 a {
-    color: #00E5FF !important;
-    text-decoration: none !important;
+    color: #00E5FF;
+    text-decoration: none;
 }
 
 .heading-buttons .button-2 a:visited {
-    color: #00E5FF !important;
-    text-decoration: none !important;
+    color: #00E5FF ;
+    text-decoration: none ;
 }
 
 .heading-buttons .button-2 a:hover {
-    color: #00E5FF !important;
-    text-decoration: none !important;
+    color: #00E5FF ;
+    text-decoration: none ;
 }
 
 
