@@ -137,6 +137,11 @@ body {
     cursor: pointer;
 }
 
+.side-nav-button-2 a {
+    color: white;
+    text-decoration: none;
+}
+
 .side-nav-button-1:hover,
 .side-nav-button-2:hover {
     box-shadow:
@@ -227,13 +232,19 @@ body {
     background-color: #047885;
 }
 
-.heading-buttons .button-2 {
-    color: #00E5FF;
+.heading-buttons .button-2{
+    color:#00E5FF;
+
     background-color: #031322;
 
     border: 1px solid #00E5FF;
-}
 
+    font-size:15px;
+}
+.heading-buttons .button-2 a{
+    color:#00E5FF;
+    text-decoration:none;
+}
 
 /* ================= ABOUT ================= */
 
@@ -547,44 +558,47 @@ body {
 /*Contact*/
 .contact {
     background-color: #031322;
-    width:100%;
-    height:120px;
-    align-items:center;
+    width: 100%;
+    height: 120px;
+    align-items: center;
 }
-.contact-title{
-    color:#00E5FF;
+
+.contact-title {
+    color: #00E5FF;
     padding: 20px;
-    
-}
-.contact-items{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    flex-wrap:wrap;
-    gap:30px;
-    margin:10px;
+
 }
 
-.contact-item i{
-    color:white;
-    font-size:15px;
+.contact-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
 }
-.contact-item span,span a{
-    color:white;
-    font-size:15px
 
+.contact-item i {
+    color: white;
+    font-size: 15px;
+}
+
+.contact-item span,
+span a {
+    color: white;
+    font-size: 15px
 }
 
 /*Footer*/
-.footer{
-    background-color:black;
-    color:white;
-    width:100%;
-    height:20px;
-    display:flex;
-    justify-content:space-between;
-    font-size:10px;
+.footer {
+    background-color: #020c17;
+    color: white;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 6px;
 }
 
 
@@ -640,7 +654,6 @@ body {
     .heading-buttons .button-2 {
         padding: 10px;
     }
-
 
     /* About */
 
@@ -736,7 +749,8 @@ body {
     .certifications-item p {
         font-size: 18px;
     }
-    .contact{
-        height:auto;
+
+    .contact {
+        height: auto;
     }
 }
