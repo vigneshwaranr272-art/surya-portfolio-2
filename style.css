@@ -192,6 +192,7 @@ body {
     margin-top: 10px;
     color: white;
     line-height: 1.6;
+    flex-wrap:wrap;
 }
 
 
@@ -275,6 +276,10 @@ body {
     max-width: 600px;
     text-align: center;
     line-height: 1.6;
+}
+.about-details p{
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .about-highlight {
@@ -401,6 +406,7 @@ body {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
+
 }
 
 .project-details h3 {
@@ -408,13 +414,17 @@ body {
     margin-bottom: 10px;
     max-width: 700px;
     width: 100%;
+    display:flex;
+    flex-wrap:wrap
 }
 
 .project-details p {
     color: white;
-    width: 50%;
+    max-width:80%;
     text-align: left;
     line-height: 1.8;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 
